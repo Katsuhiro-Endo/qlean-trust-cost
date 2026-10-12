@@ -1,0 +1,34 @@
+import QLean.Circuits.Foundation.BitonicValueSemantics
+
+/-!
+# Shared bitonic value semantics façade
+
+All layout-independent definitions and proofs are owned by the shared core.
+This module preserves the established Q import path without duplicating proof
+bodies.
+-/
+
+namespace ProbabilityGeneratorQProof
+
+export VerifiedCircuitCore
+  (typedBitonicValueStep runTypedBitonicValues IsSortedFin IsReverseSortedFin
+   IsSortedDirectionFin thresholdValues typedBitonicValueStep_left
+   typedBitonicValueStep_right typedBitonicValueStep_other threshold_min
+   threshold_max thresholdValues_typedBitonicValueStep
+   thresholdValues_runTypedBitonicValues BitonicInstructionsDisjoint
+   runTypedBitonicValues_other typedBitonicValueStep_endpoint_congr
+   runTypedBitonicValues_at_disjoint_member isSortedFin_of_thresholds
+   bool_sorted_ascending_cutoff bool_sorted_descending_cutoff joinFinHalves
+   cyclicCoordinate IsCyclicTrueInterval join_sorted_halves_isCyclicTrueInterval
+   add_half_mod_two_mul cyclicCoordinate_add_half cyclicCoordinate_mod_half
+   halfCompareLower halfCompareUpper cyclicBooleanPair_min
+   cyclicBooleanPair_max halfCompareLower_shape halfCompareUpper_shape
+   halfCompareLower_isCyclicTrueInterval halfCompareUpper_isCyclicTrueInterval
+   halfCompare_separated joinFinHalves_sortedDirection
+   recursiveBoolBitonicMerge halfCompareLower_from_input
+   halfCompareUpper_from_input recursiveBoolBitonicMerge_from_input
+   recursiveBoolBitonicMerge_sorted lowerFinHalf upperFinHalf
+   recursiveBoolBitonicSort recursiveBoolBitonicSort_sorted
+   recursiveBoolBitonicSortDirection recursiveBoolBitonicSortDirection_sorted)
+
+end ProbabilityGeneratorQProof

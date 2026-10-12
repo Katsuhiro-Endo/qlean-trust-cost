@@ -1,0 +1,27 @@
+import QLean.History.HistoryAnalyticParameters194
+import QLean.History.Integration.ScientificWidthGenericContract
+import QLean.History.HistoryP15GeneratedProviderInternalBinding226
+import QLean.History.Integration.HistoryIndexCast.HistoryP15P16FinCastSemanticBridgeEstablishedBridge
+import QLean.History.HistoryInternalP17P44Certificate
+import QLean.Spectral.Circuits.HistoryP15FullClean
+
+set_option autoImplicit false
+
+namespace HistoryAdmissibilityActualAdapter
+
+open VerifiedCircuitCore
+open SpectralSamplingProof
+open SpectralSamplingProof.Analytic
+open SpectralSamplingProof.Components
+open ProbabilityGeneratorQProof
+open HistoryAnalyticParameterExistence194
+
+noncomputable section
+
+abbrev RawInput196 := ScientificWidthGenericContract.RawInput259
+abbrev CorrectedAdmissible196 (input : RawInput196) :=
+  ScientificWidthGenericContract.CorrectedAdmissible259 input
+
+end
+
+end HistoryAdmissibilityActualAdapter
