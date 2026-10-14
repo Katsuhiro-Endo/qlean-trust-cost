@@ -1,6 +1,6 @@
 # A Concrete Development Example for “Reducing Trust Cost in Quantum Application Development Using AI”
 
-Paper: Katsuhiro Endo, *Reducing Trust Cost in Quantum Application Development Using AI*.
+Paper: Katsuhiro Endo, *Reducing Trust Cost in Quantum Application Development Using AI* ([URL](https://arxiv.org/abs/2610.14665)).
 
 ## Checkpoints
 
